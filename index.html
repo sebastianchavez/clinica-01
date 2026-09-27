@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Clínica Salud+ - Atención médica profesional con más de 15 años de experiencia. Especialistas en cardiología, pediatría, dermatología y más.">
+    <title>Clínica Salud+ | Atención médica profesional y de confianza</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top hero-transparent">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="bi bi-heart-pulse-fill"></i>
+                Clínica Salud+
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMain">
+                <ul class="navbar-nav ms-auto align-items-lg-center">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">Sobre nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pricing.html">Precios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contacto</a></li>
+                    <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
+                        <a class="btn btn-light btn-sm fw-bold" href="contact.html">
+                            <i class="bi bi-calendar-check me-1"></i>Reservar cita
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="hero">
+        <div class="hero-bg">
+            <img src="https://images.unsplash.com/photo-1631815589968-fdb09a223b1e?w=1920&q=80" alt="Clínica moderna" loading="eager">
+        </div>
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-7 hero-content">
+                    <span class="badge bg-light text-primary px-3 py-2 mb-4 fw-semibold">
+                        <i class="bi bi-shield-check me-1"></i> Atención certificada · Más de 15 años
+                    </span>
+                    <h1>Tu salud, nuestra prioridad</h1>
+                    <p class="lead">Atención médica integral con profesionales altamente capacitados, tecnología de vanguardia y un trato humano que marca la diferencia.</p>
+                    <div class="d-flex flex-wrap gap-3">
+                        <a href="contact.html" class="btn btn-light btn-lg">
+                            <i class="bi bi-calendar-check me-2"></i>Reservar cita
+                        </a>
+                        <a href="services.html" class="btn btn-outline-light btn-lg">
+                            Nuestros servicios
+                        </a>
+                    </div>
+                    <div class="hero-trust-bar row g-3">
+                        <div class="col-md-4">
+                            <div class="hero-trust-item">
+                                <i class="bi bi-telephone-fill"></i>
+                                <span>+52 555 123 4567</span>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="hero-trust-item">
+                                <i class="bi bi-clock-fill"></i>
+                                <span>Lun-Vie 8:00-20:00</span>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="hero-trust-item">
+                                <i class="bi bi-geo-alt-fill"></i>
+                                <span>Av. Salud 1234</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="hero-image-wrapper">
+                        <div class="hero-img-main">
+                            <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=800&q=80" alt="Doctora atendiendo paciente">
+                        </div>
+                        <div class="hero-floating-card card-1">
+                            <div class="icon-circle success">
+                                <i class="bi bi-check2"></i>
+                            </div>
+                            <div>
+                                <strong>+25,000</strong>
+                                <small>Pacientes felices</small>
+                            </div>
+                        </div>
+                        <div class="hero-floating-card card-2">
+                            <div class="icon-circle">
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <div>
+                                <strong>4.9 / 5.0</strong>
+                                <small>Calificación</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Brand strip -->
+    <div class="brand-strip">
+        <div class="container">
+            <div class="row g-4 align-items-center">
+                <div class="col-12 text-center mb-3">
+                    <small class="text-muted text-uppercase fw-semibold" style="letter-spacing:2px;">Aseguradoras con las que trabajamos</small>
+                </div>
+                <div class="col-6 col-md-2"><div class="brand-strip-item"><i class="bi bi-shield-fill-check"></i> GNP</div></div>
+                <div class="col-6 col-md-2"><div class="brand-strip-item"><i class="bi bi-shield-fill-check"></i> AXA</div></div>
+                <div class="col-6 col-md-2"><div class="brand-strip-item"><i class="bi bi-shield-fill-check"></i> MetLife</div></div>
+                <div class="col-6 col-md-2"><div class="brand-strip-item"><i class="bi bi-shield-fill-check"></i> Zurich</div></div>
+                <div class="col-6 col-md-2"><div class="brand-strip-item"><i class="bi bi-shield-fill-check"></i> Mapfre</div></div>
+                <div class="col-6 col-md-2"><div class="brand-strip-item"><i class="bi bi-shield-fill-check"></i> Seguros Atlas</div></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Servicios destacados -->
+    <section id="servicios" class="bg-pattern">
+        <div class="container">
+            <div class="section-title reveal">
+                <span class="eyebrow">Nuestras especialidades</span>
+                <h2>Servicios médicos integrales</h2>
+                <p>Contamos con un equipo multidisciplinario para cubrir todas tus necesidades de salud en un solo lugar.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4 reveal reveal-delay-1">
+                    <div class="service-card">
+                        <div class="icon-box"><i class="bi bi-heart-pulse"></i></div>
+                        <h4>Cardiología</h4>
+                        <p>Diagnóstico y tratamiento de enfermedades cardiovasculares con tecnología de última generación.</p>
+                        <a href="services.html" class="service-link mt-3 d-inline-flex">Ver más <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 reveal reveal-delay-2">
+                    <div class="service-card">
+                        <div class="icon-box"><i class="bi bi-emoji-smile"></i></div>
+                        <h4>Pediatría</h4>
+                        <p>Cuidado integral de la salud de los más pequeños, desde recién nacidos hasta adolescentes.</p>
+                        <a href="services.html" class="service-link mt-3 d-inline-flex">Ver más <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 reveal reveal-delay-3">
+                    <div class="service-card">
+                        <div class="icon-box"><i class="bi bi-droplet-half"></i></div>
+                        <h4>Dermatología</h4>
+                        <p>Tratamientos especializados para el cuidado de la piel, cabello y uñas.</p>
+                        <a href="services.html" class="service-link mt-3 d-inline-flex">Ver más <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 reveal reveal-delay-4">
+                    <div class="service-card">
+                        <div class="icon-box"><i class="bi bi-gender-female"></i></div>
+                        <h4>Ginecología</h4>
+                        <p>Atención especializada en salud femenina con profesionales certificadas.</p>
+                        <a href="services.html" class="service-link mt-3 d-inline-flex">Ver más <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 reveal reveal-delay-5">
+                    <div class="service-card">
+                        <div class="icon-box"><i class="bi bi-bandaid"></i></div>
+                        <h4>Traumatología</h4>
+                        <p>Diagnóstico y tratamiento de lesiones del sistema musculoesquelético.</p>
+                        <a href="services.html" class="service-link mt-3 d-inline-flex">Ver más <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 reveal reveal-delay-6">
+                    <div class="service-card">
+                        <div class="icon-box"><i class="bi bi-clipboard2-pulse"></i></div>
+                        <h4>Laboratorio</h4>
+                        <p>Análisis clínicos completos con resultados rápidos y confiables.</p>
+                        <a href="services.html" class="service-link mt-3 d-inline-flex">Ver más <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-5 reveal">
+                <a href="services.html" class="btn btn-outline-primary btn-lg">
+                    Ver todos los servicios <i class="bi bi-arrow-right ms-2"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-6 col-md-3 reveal reveal-delay-1">
+                    <div class="stat-item">
+                        <i class="bi bi-calendar-heart"></i>
+                        <span class="stat-number"><span data-counter="15">0</span>+</span>
+                        <span class="stat-label">Años de experiencia</span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 reveal reveal-delay-2">
+                    <div class="stat-item">
+                        <i class="bi bi-people-fill"></i>
+                        <span class="stat-number"><span data-counter="25000">0</span>+</span>
+                        <span class="stat-label">Pacientes atendidos</span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 reveal reveal-delay-3">
+                    <div class="stat-item">
+                        <i class="bi bi-person-badge"></i>
+                        <span class="stat-number"><span data-counter="40">0</span>+</span>
+                        <span class="stat-label">Doctores especialistas</span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 reveal reveal-delay-4">
+                    <div class="stat-item">
+                        <i class="bi bi-award"></i>
+                        <span class="stat-number"><span data-counter="20">0</span>+</span>
+                        <span class="stat-label">Especialidades médicas</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre nosotros preview -->
+    <section>
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6 reveal">
+                    <span class="eyebrow">Sobre nosotros</span>
+                    <h2 class="fw-bold mb-3" style="font-size: clamp(1.8rem, 3vw, 2.5rem);">Más de 15 años cuidando la salud de tu familia</h2>
+                    <p class="text-muted mb-3">En Clínica Salud+ combinamos experiencia, tecnología y un equipo humano comprometido con tu bienestar. Cada paciente es único, y por eso diseñamos planes de atención personalizados.</p>
+                    <p class="text-muted mb-4">Nuestras instalaciones cuentan con equipos de última generación y espacios diseñados para ofrecerte la máxima comodidad durante tu visita.</p>
+                    <div class="row g-3 mb-4">
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center gap-2">
+                                <i class="bi bi-check-circle-fill text-primary fs-5"></i>
+                                <span>Atención personalizada</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center gap-2">
+                                <i class="bi bi-check-circle-fill text-primary fs-5"></i>
+                                <span>Tecnología de punta</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center gap-2">
+                                <i class="bi bi-check-circle-fill text-primary fs-5"></i>
+                                <span>Profesionales certificados</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center gap-2">
+                                <i class="bi bi-check-circle-fill text-primary fs-5"></i>
+                                <span>Instalaciones modernas</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="about.html" class="btn btn-primary">
+                        Conoce más sobre nosotros <i class="bi bi-arrow-right ms-2"></i>
+                    </a>
+                </div>
+                <div class="col-lg-6 reveal reveal-delay-2">
+                    <div class="history-image-grid">
+                        <div class="history-grid-item gi-1">
+                            <img src="https://images.unsplash.com/photo-1538108149393-fbbd81895907?w=800&q=80" alt="Recepción moderna">
+                            <div class="gi-overlay">
+                                <i class="bi bi-hospital"></i>
+                                <strong>Instalaciones modernas</strong>
+                            </div>
+                        </div>
+                        <div class="history-grid-item gi-2">
+                            <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=600&q=80" alt="Tecnología médica">
+                        </div>
+                        <div class="history-grid-item gi-3">
+                            <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=600&q=80" alt="Atención al paciente">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section class="bg-light">
+        <div class="container">
+            <div class="section-title reveal">
+                <span class="eyebrow">Testimonios</span>
+                <h2>Lo que dicen nuestros pacientes</h2>
+                <p>Historias reales de personas que confiaron en nosotros.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4 reveal reveal-delay-1">
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        </div>
+                        <i class="bi bi-quote quote-icon"></i>
+                        <p>La atención fue excelente desde el primer momento. Los doctores son muy profesionales y el personal siempre amable. Recomiendo totalmente la clínica.</p>
+                        <div class="testimonial-author">
+                            <div class="testimonial-avatar">MR</div>
+                            <div class="testimonial-info">
+                                <strong>María Rodríguez</strong>
+                                <span>Paciente de cardiología</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 reveal reveal-delay-2">
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        </div>
+                        <i class="bi bi-quote quote-icon"></i>
+                        <p>Llevé a mi hijo con el pediatra y la experiencia fue inmejorable. Explicaciones claras, paciencia y un trato muy humano. Sin duda volveremos.</p>
+                        <div class="testimonial-author">
+                            <div class="testimonial-avatar">JL</div>
+                            <div class="testimonial-info">
+                                <strong>Juan López</strong>
+                                <span>Paciente de pediatría</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 reveal reveal-delay-3">
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        </div>
+                        <i class="bi bi-quote quote-icon"></i>
+                        <p>Las instalaciones son modernas y todo el proceso fue muy ágil. Me hice análisis clínicos y recibí los resultados el mismo día. Muy eficiente.</p>
+                        <div class="testimonial-author">
+                            <div class="testimonial-avatar">CG</div>
+                            <div class="testimonial-info">
+                                <strong>Carolina García</strong>
+                                <span>Paciente de laboratorio</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA final -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="reveal">
+                <span class="badge bg-light text-primary px-3 py-2 mb-3 fw-semibold">
+                    <i class="bi bi-calendar-check me-1"></i> Agenda en línea
+                </span>
+                <h2>¿Listo para cuidar tu salud?</h2>
+                <p>Agenda tu cita hoy y da el primer paso hacia una vida más sana.</p>
+                <a href="contact.html" class="btn btn-light btn-lg">
+                    <i class="bi bi-calendar-check me-2"></i>Reservar cita ahora
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-brand">
+                        <i class="bi bi-heart-pulse-fill"></i> Clínica Salud+
+                    </div>
+                    <p class="mb-3">Atención médica profesional con más de 15 años de experiencia. Tu salud y bienestar son nuestra prioridad.</p>
+                    <div class="footer-socials">
+                        <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5>Enlaces</h5>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="about.html">Sobre nosotros</a></li>
+                        <li><a href="services.html">Servicios</a></li>
+                        <li><a href="pricing.html">Precios</a></li>
+                        <li><a href="contact.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5>Servicios</h5>
+                    <ul>
+                        <li><a href="services.html">Cardiología</a></li>
+                        <li><a href="services.html">Pediatría</a></li>
+                        <li><a href="services.html">Dermatología</a></li>
+                        <li><a href="services.html">Ginecología</a></li>
+                        <li><a href="services.html">Laboratorio</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5>Contacto</h5>
+                    <ul>
+                        <li><i class="bi bi-geo-alt me-2"></i>Av. Salud 1234, Ciudad</li>
+                        <li><i class="bi bi-telephone me-2"></i>+52 555 123 4567</li>
+                        <li><i class="bi bi-envelope me-2"></i>contacto@clinicasalud.com</li>
+                        <li><i class="bi bi-clock me-2"></i>Lun-Vie 8:00-20:00</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="mb-0">&copy; <span data-current-year>2026</span> Clínica Salud+. Todos los derechos reservados. | <a href="privacy.html">Privacidad</a> · <a href="terms.html">Términos</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <button class="back-to-top" aria-label="Volver arriba"><i class="bi bi-arrow-up"></i></button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

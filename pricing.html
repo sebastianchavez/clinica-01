@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conoce nuestros planes y precios accesibles. Planes Básico, Familiar y Premium.">
+    <title>Precios | Clínica Salud+</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="bi bi-heart-pulse-fill"></i>
+                Clínica Salud+
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMain">
+                <ul class="navbar-nav ms-auto align-items-lg-center">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">Sobre nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pricing.html">Precios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contacto</a></li>
+                    <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
+                        <a class="btn btn-primary btn-sm" href="contact.html">
+                            <i class="bi bi-calendar-check me-1"></i>Reservar cita
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Hero -->
+    <header class="page-hero">
+        <div class="page-hero-bg">
+            <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1920&q=80" alt="Planes de salud">
+        </div>
+        <div class="container">
+            <span class="badge bg-light text-primary px-3 py-2 mb-3 fw-semibold">
+                <i class="bi bi-tags me-1"></i> Planes accesibles
+            </span>
+            <h1>Nuestros precios</h1>
+            <p class="lead">Planes diseñados para ajustarse a tus necesidades y las de tu familia.</p>
+        </div>
+    </header>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb-nav">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb mb-0">
+                    <li class="breadcrumb-item"><a href="index.html"><i class="bi bi-house-door"></i> Inicio</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Precios</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Planes -->
+    <section>
+        <div class="container">
+            <div class="section-title reveal">
+                <span class="eyebrow">Nuestros planes</span>
+                <h2>Elige el plan ideal para ti</h2>
+                <p>Sin contratos forzosos, sin sorpresas. Cancela cuando quieras.</p>
+            </div>
+            <div class="row g-4 align-items-stretch">
+                <!-- Plan Básico -->
+                <div class="col-lg-4 reveal reveal-delay-1">
+                    <div class="pricing-card">
+                        <span class="pricing-badge" style="background: var(--gray);">Individual</span>
+                        <h4>Básico</h4>
+                        <p class="plan-desc">Ideal para personas individuales</p>
+                        <div class="pricing-price">$299<small>/mes</small></div>
+                        <ul class="pricing-features">
+                            <li><i class="bi bi-check-circle-fill"></i> 2 consultas generales al mes</li>
+                            <li><i class="bi bi-check-circle-fill"></i> 1 consulta con especialista</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Análisis clínicos básicos</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Descuentos en farmacia (10%)</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Atención telefónica 24/7</li>
+                            <li class="disabled"><i class="bi bi-x-circle-fill"></i> Urgencias gratuitas</li>
+                            <li class="disabled"><i class="bi bi-x-circle-fill"></i> Cobertura familiar</li>
+                            <li class="disabled"><i class="bi bi-x-circle-fill"></i> Estudios especializados</li>
+                        </ul>
+                        <a href="contact.html" class="btn btn-outline-primary w-100">Contratar plan</a>
+                    </div>
+                </div>
+                <!-- Plan Familiar -->
+                <div class="col-lg-4 reveal reveal-delay-2">
+                    <div class="pricing-card featured">
+                        <span class="pricing-badge">Más popular</span>
+                        <h4>Familiar</h4>
+                        <p class="plan-desc">Cobertura para toda la familia</p>
+                        <div class="pricing-price">$599<small>/mes</small></div>
+                        <ul class="pricing-features">
+                            <li><i class="bi bi-check-circle-fill"></i> 5 consultas generales al mes</li>
+                            <li><i class="bi bi-check-circle-fill"></i> 3 consultas con especialistas</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Análisis clínicos completos</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Descuentos en farmacia (20%)</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Atención telefónica 24/7</li>
+                            <li><i class="bi bi-check-circle-fill"></i> 2 urgencias gratuitas al año</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Cobertura hasta 5 miembros</li>
+                            <li class="disabled"><i class="bi bi-x-circle-fill"></i> Estudios especializados</li>
+                        </ul>
+                        <a href="contact.html" class="btn btn-primary w-100">Contratar plan</a>
+                    </div>
+                </div>
+                <!-- Plan Premium -->
+                <div class="col-lg-4 reveal reveal-delay-3">
+                    <div class="pricing-card">
+                        <span class="pricing-badge" style="background: linear-gradient(135deg, #ffc107, #ff9800);">Premium</span>
+                        <h4>Premium</h4>
+                        <p class="plan-desc">Atención sin límites</p>
+                        <div class="pricing-price">$999<small>/mes</small></div>
+                        <ul class="pricing-features">
+                            <li><i class="bi bi-check-circle-fill"></i> Consultas ilimitadas</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Todas las especialidades</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Análisis clínicos ilimitados</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Descuentos en farmacia (30%)</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Atención telefónica prioritaria</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Urgencias gratuitas ilimitadas</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Cobertura familiar ampliada</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Estudios especializados incluidos</li>
+                        </ul>
+                        <a href="contact.html" class="btn btn-outline-primary w-100">Contratar plan</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tabla comparativa -->
+    <section class="bg-light">
+        <div class="container">
+            <div class="section-title reveal">
+                <span class="eyebrow">Comparación</span>
+                <h2>¿Qué incluye cada plan?</h2>
+                <p>Revisa en detalle los servicios incluidos en cada uno de nuestros planes.</p>
+            </div>
+            <div class="reveal">
+                <div class="table-responsive">
+                    <table class="table pricing-table bg-white shadow-sm overflow-hidden mb-0">
+                        <thead>
+                            <tr>
+                                <th>Servicio</th>
+                                <th class="text-center">Básico</th>
+                                <th class="text-center bg-primary-dark">Familiar</th>
+                                <th class="text-center">Premium</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Consultas generales</strong></td>
+                                <td class="text-center">2 / mes</td>
+                                <td class="text-center">5 / mes</td>
+                                <td class="text-center">Ilimitadas</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Consultas con especialistas</strong></td>
+                                <td class="text-center">1 / mes</td>
+                                <td class="text-center">3 / mes</td>
+                                <td class="text-center">Ilimitadas</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Análisis clínicos</strong></td>
+                                <td class="text-center">Básicos</td>
+                                <td class="text-center">Completos</td>
+                                <td class="text-center">Ilimitados</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Descuento en farmacia</strong></td>
+                                <td class="text-center">10%</td>
+                                <td class="text-center">20%</td>
+                                <td class="text-center">30%</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Atención telefónica 24/7</strong></td>
+                                <td class="text-center"><i class="bi bi-check-lg text-success fs-4"></i></td>
+                                <td class="text-center"><i class="bi bi-check-lg text-success fs-4"></i></td>
+                                <td class="text-center"><i class="bi bi-check-lg text-success fs-4"></i></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Urgencias gratuitas</strong></td>
+                                <td class="text-center"><i class="bi bi-x-lg text-danger fs-4"></i></td>
+                                <td class="text-center">2 al año</td>
+                                <td class="text-center"><i class="bi bi-check-lg text-success fs-4"></i></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Cobertura familiar</strong></td>
+                                <td class="text-center"><i class="bi bi-x-lg text-danger fs-4"></i></td>
+                                <td class="text-center">Hasta 5</td>
+                                <td class="text-center">Ilimitada</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Estudios especializados</strong></td>
+                                <td class="text-center"><i class="bi bi-x-lg text-danger fs-4"></i></td>
+                                <td class="text-center"><i class="bi bi-x-lg text-danger fs-4"></i></td>
+                                <td class="text-center"><i class="bi bi-check-lg text-success fs-4"></i></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Consultas individuales -->
+    <section>
+        <div class="container">
+            <div class="section-title reveal">
+                <span class="eyebrow">Sin plan</span>
+                <h2>Consultas individuales</h2>
+                <p>También puedes pagar por consulta individual sin necesidad de un plan.</p>
+            </div>
+            <div class="row g-3 reveal">
+                <div class="col-md-6 col-lg-4">
+                    <div class="d-flex align-items-center justify-content-between p-3 bg-white rounded-3 shadow-sm card-hover">
+                        <div class="d-flex align-items-center gap-3">
+                            <div class="feature-icon" style="width:40px;height:40px;font-size:1.1rem;"><i class="bi bi-clipboard2-pulse"></i></div>
+                            <div>
+                                <strong class="d-block">Consulta general</strong>
+                                <small class="text-muted">Medicina general</small>
+                            </div>
+                        </div>
+                        <span class="badge bg-primary fs-6 px-3 py-2">$80</span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="d-flex align-items-center justify-content-between p-3 bg-white rounded-3 shadow-sm card-hover">
+                        <div class="d-flex align-items-center gap-3">
+                            <div class="feature-icon" style="width:40px;height:40px;font-size:1.1rem;"><i class="bi bi-heart-pulse"></i></div>
+                            <div>
+                                <strong class="d-block">Cardiología</strong>
+                                <small class="text-muted">Especialista</small>
+                            </div>
+                        </div>
+                        <span class="badge bg-primary fs-6 px-3 py-2">$150</span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="d-flex align-items-center justify-content-between p-3 bg-white rounded-3 shadow-sm card-hover">
+                        <div class="d-flex align-items-center gap-3">
+                            <div class="feature-icon" style="width:40px;height:40px;font-size:1.1rem;"><i class="bi bi-emoji-smile"></i></div>
+                            <div>
+                                <strong class="d-block">Pediatría</strong>
+                                <small class="text-muted">Especialista</small>
+                            </div>
+                        </div>
+                        <span class="badge bg-primary fs-6 px-3 py-2">$130</span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="d-flex align-items-center justify-content-between p-3 bg-white rounded-3 shadow-sm card-hover">
+                        <div class="d-flex align-items-center gap-3">
+                            <div class="feature-icon" style="width:40px;height:40px;font-size:1.1rem;"><i class="bi bi-droplet-half"></i></div>
+                            <div>
+                                <strong class="d-block">Dermatología</strong>
+                                <small class="text-muted">Especialista</small>
+                            </div>
+                        </div>
+                        <span class="badge bg-primary fs-6 px-3 py-2">$140</span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="d-flex align-items-center justify-content-between p-3 bg-white rounded-3 shadow-sm card-hover">
+                        <div class="d-flex align-items-center gap-3">
+                            <div class="feature-icon" style="width:40px;height:40px;font-size:1.1rem;"><i class="bi bi-gender-female"></i></div>
+                            <div>
+                                <strong class="d-block">Ginecología</strong>
+                                <small class="text-muted">Especialista</small>
+                            </div>
+                        </div>
+                        <span class="badge bg-primary fs-6 px-3 py-2">$160</span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="d-flex align-items-center justify-content-between p-3 bg-white rounded-3 shadow-sm card-hover">
+                        <div class="d-flex align-items-center gap-3">
+                            <div class="feature-icon" style="width:40px;height:40px;font-size:1.1rem;"><i class="bi bi-bandaid"></i></div>
+                            <div>
+                                <strong class="d-block">Traumatología</strong>
+                                <small class="text-muted">Especialista</small>
+                            </div>
+                        </div>
+                        <span class="badge bg-primary fs-6 px-3 py-2">$160</span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="d-flex align-items-center justify-content-between p-3 bg-white rounded-3 shadow-sm card-hover">
+                        <div class="d-flex align-items-center gap-3">
+                            <div class="feature-icon" style="width:40px;height:40px;font-size:1.1rem;"><i class="bi bi-brain"></i></div>
+                            <div>
+                                <strong class="d-block">Psicología</strong>
+                                <small class="text-muted">Sesión 50 min</small>
+                            </div>
+                        </div>
+                        <span class="badge bg-primary fs-6 px-3 py-2">$120</span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="d-flex align-items-center justify-content-between p-3 bg-white rounded-3 shadow-sm card-hover">
+                        <div class="d-flex align-items-center gap-3">
+                            <div class="feature-icon" style="width:40px;height:40px;font-size:1.1rem;"><i class="bi bi-cup-hot"></i></div>
+                            <div>
+                                <strong class="d-block">Nutrición</strong>
+                                <small class="text-muted">Consulta + plan</small>
+                            </div>
+                        </div>
+                        <span class="badge bg-primary fs-6 px-3 py-2">$110</span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="d-flex align-items-center justify-content-between p-3 bg-white rounded-3 shadow-sm card-hover">
+                        <div class="d-flex align-items-center gap-3">
+                            <div class="feature-icon" style="width:40px;height:40px;font-size:1.1rem;"><i class="bi bi-clipboard2-data"></i></div>
+                            <div>
+                                <strong class="d-block">Análisis clínicos</strong>
+                                <small class="text-muted">Paquete básico</small>
+                            </div>
+                        </div>
+                        <span class="badge bg-primary fs-6 px-3 py-2">$90</span>
+                    </div>
+                </div>
+            </div>
+            <p class="text-center text-muted mt-4 reveal"><small>* Precios sujetos a cambios. Consulta descuentos por paquete.</small></p>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="bg-light">
+        <div class="container">
+            <div class="section-title reveal">
+                <span class="eyebrow">Preguntas frecuentes</span>
+                <h2>Resolvemos tus dudas</h2>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8 reveal">
+                    <div class="accordion" id="faqAccordion">
+                        <div class="accordion-item border-0 mb-3 rounded-3 shadow-sm">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button rounded-3 fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                    <i class="bi bi-question-circle text-primary me-2"></i>¿Puedo cambiar de plan en cualquier momento?
+                                </button>
+                            </h2>
+                            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body text-muted">
+                                    Sí, puedes cambiar de plan cuando lo desees. El cambio se aplica a partir del siguiente ciclo de facturación y solo se cobra o devuelve la diferencia proporcional.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-0 mb-3 rounded-3 shadow-sm">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed rounded-3 fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                    <i class="bi bi-question-circle text-primary me-2"></i>¿Aceptan seguros médicos?
+                                </button>
+                            </h2>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body text-muted">
+                                    Trabajamos con las principales aseguradoras del país. Contáctanos para verificar si tu seguro es aceptado y conocer los beneficios aplicables.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-0 mb-3 rounded-3 shadow-sm">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed rounded-3 fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                    <i class="bi bi-question-circle text-primary me-2"></i>¿Qué métodos de pago aceptan?
+                                </button>
+                            </h2>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body text-muted">
+                                    Aceptamos efectivo, tarjetas de crédito/débito, transferencias bancarias y pagos móviles. También ofrecemos planes de financiamiento a meses sin intereses.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-0 mb-3 rounded-3 shadow-sm">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed rounded-3 fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                                    <i class="bi bi-question-circle text-primary me-2"></i>¿Hay periodo de permanencia mínima?
+                                </button>
+                            </h2>
+                            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body text-muted">
+                                    No, nuestros planes no tienen permanencia mínima. Puedes cancelar en cualquier momento sin penalizaciones.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="reveal">
+                <h2>¿Listo para empezar?</h2>
+                <p>Elige el plan que mejor se adapte a ti y comienza a cuidar tu salud hoy.</p>
+                <a href="contact.html" class="btn btn-light btn-lg">
+                    <i class="bi bi-calendar-check me-2"></i>Solicitar información
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-brand">
+                        <i class="bi bi-heart-pulse-fill"></i> Clínica Salud+
+                    </div>
+                    <p class="mb-3">Atención médica profesional con más de 15 años de experiencia. Tu salud y bienestar son nuestra prioridad.</p>
+                    <div class="footer-socials">
+                        <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5>Enlaces</h5>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="about.html">Sobre nosotros</a></li>
+                        <li><a href="services.html">Servicios</a></li>
+                        <li><a href="pricing.html">Precios</a></li>
+                        <li><a href="contact.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5>Servicios</h5>
+                    <ul>
+                        <li><a href="services.html">Cardiología</a></li>
+                        <li><a href="services.html">Pediatría</a></li>
+                        <li><a href="services.html">Dermatología</a></li>
+                        <li><a href="services.html">Ginecología</a></li>
+                        <li><a href="services.html">Laboratorio</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5>Contacto</h5>
+                    <ul>
+                        <li><i class="bi bi-geo-alt me-2"></i>Av. Salud 1234, Ciudad</li>
+                        <li><i class="bi bi-telephone me-2"></i>+52 555 123 4567</li>
+                        <li><i class="bi bi-envelope me-2"></i>contacto@clinicasalud.com</li>
+                        <li><i class="bi bi-clock me-2"></i>Lun-Vie 8:00-20:00</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="mb-0">&copy; <span data-current-year>2026</span> Clínica Salud+. Todos los derechos reservados. | <a href="privacy.html">Privacidad</a> · <a href="terms.html">Términos</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <button class="back-to-top" aria-label="Volver arriba"><i class="bi bi-arrow-up"></i></button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
