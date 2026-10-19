@@ -102,16 +102,16 @@ clinica-01/
 Para que el template se vea "listo para produccion", incluye los siguientes datos ficticios faciles de personalizar:
 
 - **Clinica:** Clinica Salud+
-- **Direccion:** Av. Salud 1234, Col. Centro, Ciudad
-- **Telefono:** +52 555 123 4567
-- **Email:** contacto@clinicasalud.com
+- **Direccion:** Av. Providencia 1234, Providencia, Santiago, Chile
+- **Telefono:** +56 2 2345 6789
+- **Email:** contacto@clinicasalud.example
 - **Horarios:** Lun-Vie 8:00-20:00 | Sab 9:00-14:00 | Dom cerrado | Urgencias 24/7
 - **4 doctores:** Dra. Ana Garcia (Cardiologia), Dr. Luis Perez (Pediatria), Dra. Maria Lopez (Dermatologia), Dr. Carlos Ruiz (Traumatologia)
 - **9 servicios:** Cardiologia, Pediatria, Dermatologia, Ginecologia, Traumatologia, Psicologia, Nutricion, Laboratorio, Urgencias 24/7
-- **3 planes:** Basico ($299), Familiar ($599, mas popular), Premium ($999)
+- **3 planes:** Basico ($29.990 CLP/mes), Familiar ($59.990 CLP/mes, mas popular), Premium ($99.990 CLP/mes)
 - **Estadisticas:** 15+ anos, 25,000+ pacientes, 40+ doctores, 20+ especialidades
 
-Busca y reemplaza `Clinica Salud+`, `contacto@clinicasalud.com`, los telefonos y direcciones segun tu negocio.
+Busca y reemplaza `Clinica Salud+`, `contacto@clinicasalud.example`, los telefonos y direcciones segun tu negocio.
 
 ## Personalizacion rapida
 
@@ -177,3 +177,7 @@ Los textos de `privacy.html` y `terms.html` son plantillas genericas de ejemplo.
 ## Licencia
 
 Template de uso libre para proyectos comerciales y personales. Personalizable al 100%.
+
+## Localización para Chile
+
+Los precios en CLP, la dirección en Providencia, los teléfonos +56 y el WhatsApp son ilustrativos. Los correos usan el dominio reservado `.example`. Reemplaza estos datos y la ubicación del mapa por los de la clínica antes de publicar. Los convenios, aranceles y textos legales también deben adecuarse a la clínica. El formulario continúa siendo una demostración sin envío real.

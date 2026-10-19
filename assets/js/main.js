@@ -84,12 +84,12 @@
             // ease-out cubic
             const eased = 1 - Math.pow(1 - progress, 3);
             const value = Math.floor(eased * target);
-            el.textContent = value.toLocaleString();
+            el.textContent = value.toLocaleString('es-CL');
 
             if (progress < 1) {
                 requestAnimationFrame(update);
             } else {
-                el.textContent = target.toLocaleString();
+                el.textContent = target.toLocaleString('es-CL');
             }
         }
 
